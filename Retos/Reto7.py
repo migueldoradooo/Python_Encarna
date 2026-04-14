@@ -1,3 +1,5 @@
+#Suma hasta que el usuario diga 0
+
 num = int(input('Introduce un numero: '))
 suma = 0 
 

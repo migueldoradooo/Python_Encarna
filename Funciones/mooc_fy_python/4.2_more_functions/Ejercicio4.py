@@ -1,3 +1,5 @@
+#Triangulo de #
+
 def line(num, string):
     return num * string
 
@@ -13,4 +15,4 @@ def triagle(num2):
 
 
 
-triagle(6)
+triagle(8)

@@ -9,4 +9,5 @@ def spruce(n):
 
     print(" " * (n - 1) + "*")
 
-spruce(5)
+spruce(5000)
+

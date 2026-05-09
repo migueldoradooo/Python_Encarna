@@ -35,7 +35,7 @@ def calcular_media():
    
 media = calcular_media()
 
-print(media)
+
 
 def obtener_calificacion():
     if media < 5:

@@ -9,7 +9,7 @@ def pedir_usuario():
     return usuario
 
 def pedir_password():
-    passwd = int(input('Introduce la contraseña'))
+    passwd = int(input('Introduce la contraseña: '))
 
     return passwd
 
@@ -18,17 +18,20 @@ passwd = pedir_password()
 
 def comprobar_credenciales(user, passwd):
     if user == usuario_credencial and passwd == passwd_usuario:
-        acceso = print('Acceso concedido')
+        print('Acceso concedido')
     
     elif user == usuario_credencial and passwd != passwd_usuario:
-        acceso = print('acceso denegado por contraseña')
+        print('acceso denegado por contraseña')
     elif user != usuario_credencial and passwd == passwd_usuario:
-        acceso = print('acceso denegado por usuario')
+        print('acceso denegado por usuario')
 
-    return acceso
+    else:
+        print('no tienes acceso')
 
 
-acceso = comprobar_credenciales(user, pass):
+
+
+comprobar_credenciales(user, passwd)
 
 
 
